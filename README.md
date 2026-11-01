@@ -1,4 +1,4 @@
-# Computational Physics
+# Computational Condensed Matter Physics
 
 Selected projects from my MSc in Physics at the Karlsruhe Institute of Technology (KIT) and a research internship at the Instituto de Física Teórica (Madrid), from simple quantum models of molecules to simulation, data analysis and black-hole physics. Each folder has its own code, a short explanation and the main result.
 
@@ -11,7 +11,6 @@ Selected projects from my MSc in Physics at the Karlsruhe Institute of Technolog
 | [05 – Kinetic Monte Carlo of surface growth](05-kinetic-monte-carlo) | Rejection-free KMC, thin-film deposition and diffusion, surface roughness | Python (NumPy) |
 | [06 – CO₂ adsorption in carbon nanotubes](06-co2-nanotube-adsorption) | Automated analysis of molecular-dynamics snapshots | Python (NumPy, pandas) |
 | [07 – Molecular dynamics of Chignolin](07-gromacs-chignolin) | Protein in explicit water, equilibration checked with equipartition, thermostat and barostat study | GROMACS |
-| [08 – Quasinormal modes of black holes](08-black-hole-quasinormal-modes) | General relativity, Einstein–Maxwell equations, Chebyshev spectral methods (IFT internship) | SageMath, Python |
 
 ---
 Pablo Borregán Jimeno · MSc Physics, KIT

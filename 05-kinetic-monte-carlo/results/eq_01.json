@@ -1,0 +1,584 @@
+{
+  "scenario": {
+    "name": "equal_barriers_diffusion_10_percent",
+    "description": "Ea = Es; diffusion rate per site is 10% of the deposition rate"
+  },
+  "parameters": {
+    "number_of_sites": 50,
+    "Ea": 4.605170185988092,
+    "Es": 4.605170185988092,
+    "attempt_frequency": 10.0,
+    "deposition_rate_per_site": 1.0,
+    "horizontal_diffusion_rate_ra": 0.09999999999999995,
+    "downhill_diffusion_rate_rs": 0.09999999999999995,
+    "temperature_units": "energies in kBT",
+    "boundary_conditions": "periodic",
+    "simulation_end_time": 100.0,
+    "output_interval": 1.0,
+    "random_seed": 12345
+  },
+  "time_series": [
+    {
+      "time": 0.0,
+      "mean_height": 0.0,
+      "surface_roughness": 0.0
+    },
+    {
+      "time": 1.0,
+      "mean_height": 1.06,
+      "surface_roughness": 1.1901260437449472
+    },
+    {
+      "time": 2.0,
+      "mean_height": 1.96,
+      "surface_roughness": 1.5226293048539425
+    },
+    {
+      "time": 3.0,
+      "mean_height": 3.16,
+      "surface_roughness": 1.9116485032557635
+    },
+    {
+      "time": 4.0,
+      "mean_height": 4.24,
+      "surface_roughness": 2.2852570971337123
+    },
+    {
+      "time": 5.0,
+      "mean_height": 5.14,
+      "surface_roughness": 2.5535073918044566
+    },
+    {
+      "time": 6.0,
+      "mean_height": 6.12,
+      "surface_roughness": 2.73232501727009
+    },
+    {
+      "time": 7.0,
+      "mean_height": 7.08,
+      "surface_roughness": 2.667133292507144
+    },
+    {
+      "time": 8.0,
+      "mean_height": 8.12,
+      "surface_roughness": 2.8957900476381226
+    },
+    {
+      "time": 9.0,
+      "mean_height": 9.26,
+      "surface_roughness": 3.071221255461742
+    },
+    {
+      "time": 10.0,
+      "mean_height": 10.3,
+      "surface_roughness": 3.1064449134018135
+    },
+    {
+      "time": 11.0,
+      "mean_height": 11.32,
+      "surface_roughness": 3.126915412990892
+    },
+    {
+      "time": 12.0,
+      "mean_height": 12.24,
+      "surface_roughness": 3.3915188337970346
+    },
+    {
+      "time": 13.0,
+      "mean_height": 13.06,
+      "surface_roughness": 3.5009141663285606
+    },
+    {
+      "time": 14.0,
+      "mean_height": 14.14,
+      "surface_roughness": 3.4000588230205664
+    },
+    {
+      "time": 15.0,
+      "mean_height": 15.3,
+      "surface_roughness": 3.2015621187164247
+    },
+    {
+      "time": 16.0,
+      "mean_height": 16.46,
+      "surface_roughness": 3.238579935712565
+    },
+    {
+      "time": 17.0,
+      "mean_height": 17.8,
+      "surface_roughness": 3.63318042491699
+    },
+    {
+      "time": 18.0,
+      "mean_height": 18.7,
+      "surface_roughness": 3.7483329627982624
+    },
+    {
+      "time": 19.0,
+      "mean_height": 19.7,
+      "surface_roughness": 4.045985664828782
+    },
+    {
+      "time": 20.0,
+      "mean_height": 20.6,
+      "surface_roughness": 3.9242833740697165
+    },
+    {
+      "time": 21.0,
+      "mean_height": 21.48,
+      "surface_roughness": 3.8379161012195144
+    },
+    {
+      "time": 22.0,
+      "mean_height": 22.34,
+      "surface_roughness": 3.9880320961597087
+    },
+    {
+      "time": 23.0,
+      "mean_height": 23.16,
+      "surface_roughness": 3.8541406305426897
+    },
+    {
+      "time": 24.0,
+      "mean_height": 24.4,
+      "surface_roughness": 3.8262252939417984
+    },
+    {
+      "time": 25.0,
+      "mean_height": 25.2,
+      "surface_roughness": 3.9648455203198023
+    },
+    {
+      "time": 26.0,
+      "mean_height": 26.14,
+      "surface_roughness": 4.0939467509971355
+    },
+    {
+      "time": 27.0,
+      "mean_height": 27.06,
+      "surface_roughness": 4.178085686052884
+    },
+    {
+      "time": 28.0,
+      "mean_height": 28.22,
+      "surface_roughness": 4.328001848428441
+    },
+    {
+      "time": 29.0,
+      "mean_height": 29.16,
+      "surface_roughness": 4.557894250638117
+    },
+    {
+      "time": 30.0,
+      "mean_height": 30.22,
+      "surface_roughness": 4.517919875340863
+    },
+    {
+      "time": 31.0,
+      "mean_height": 31.32,
+      "surface_roughness": 4.636550441869472
+    },
+    {
+      "time": 32.0,
+      "mean_height": 32.42,
+      "surface_roughness": 4.626402490056393
+    },
+    {
+      "time": 33.0,
+      "mean_height": 33.52,
+      "surface_roughness": 4.526543935498694
+    },
+    {
+      "time": 34.0,
+      "mean_height": 34.54,
+      "surface_roughness": 4.495375401454255
+    },
+    {
+      "time": 35.0,
+      "mean_height": 35.36,
+      "surface_roughness": 4.5376645975655805
+    },
+    {
+      "time": 36.0,
+      "mean_height": 36.1,
+      "surface_roughness": 4.767598976424087
+    },
+    {
+      "time": 37.0,
+      "mean_height": 37.24,
+      "surface_roughness": 4.962096331189067
+    },
+    {
+      "time": 38.0,
+      "mean_height": 38.2,
+      "surface_roughness": 5.0517323761260355
+    },
+    {
+      "time": 39.0,
+      "mean_height": 39.22,
+      "surface_roughness": 5.281249852071004
+    },
+    {
+      "time": 40.0,
+      "mean_height": 40.26,
+      "surface_roughness": 5.199269179413584
+    },
+    {
+      "time": 41.0,
+      "mean_height": 41.28,
+      "surface_roughness": 5.18860289480704
+    },
+    {
+      "time": 42.0,
+      "mean_height": 42.22,
+      "surface_roughness": 5.1469991257042205
+    },
+    {
+      "time": 43.0,
+      "mean_height": 43.3,
+      "surface_roughness": 5.158488150611572
+    },
+    {
+      "time": 44.0,
+      "mean_height": 44.24,
+      "surface_roughness": 4.970150903141675
+    },
+    {
+      "time": 45.0,
+      "mean_height": 45.04,
+      "surface_roughness": 5.1184372615086335
+    },
+    {
+      "time": 46.0,
+      "mean_height": 45.82,
+      "surface_roughness": 5.221838756606719
+    },
+    {
+      "time": 47.0,
+      "mean_height": 46.74,
+      "surface_roughness": 5.187716260552421
+    },
+    {
+      "time": 48.0,
+      "mean_height": 47.6,
+      "surface_roughness": 5.211525688318153
+    },
+    {
+      "time": 49.0,
+      "mean_height": 48.54,
+      "surface_roughness": 5.280946884792537
+    },
+    {
+      "time": 50.0,
+      "mean_height": 49.6,
+      "surface_roughness": 5.5641710972974225
+    },
+    {
+      "time": 51.0,
+      "mean_height": 50.74,
+      "surface_roughness": 5.701964573723692
+    },
+    {
+      "time": 52.0,
+      "mean_height": 51.76,
+      "surface_roughness": 5.612699885082045
+    },
+    {
+      "time": 53.0,
+      "mean_height": 52.62,
+      "surface_roughness": 5.716257516942356
+    },
+    {
+      "time": 54.0,
+      "mean_height": 53.68,
+      "surface_roughness": 5.482481190118211
+    },
+    {
+      "time": 55.0,
+      "mean_height": 54.7,
+      "surface_roughness": 5.597320787662611
+    },
+    {
+      "time": 56.0,
+      "mean_height": 55.76,
+      "surface_roughness": 5.658833802118596
+    },
+    {
+      "time": 57.0,
+      "mean_height": 56.54,
+      "surface_roughness": 5.916789670082925
+    },
+    {
+      "time": 58.0,
+      "mean_height": 57.46,
+      "surface_roughness": 6.132568792928458
+    },
+    {
+      "time": 59.0,
+      "mean_height": 58.56,
+      "surface_roughness": 5.755553839553584
+    },
+    {
+      "time": 60.0,
+      "mean_height": 59.78,
+      "surface_roughness": 5.601035618526273
+    },
+    {
+      "time": 61.0,
+      "mean_height": 61.12,
+      "surface_roughness": 6.032047745169131
+    },
+    {
+      "time": 62.0,
+      "mean_height": 62.08,
+      "surface_roughness": 5.8509486410324945
+    },
+    {
+      "time": 63.0,
+      "mean_height": 63.12,
+      "surface_roughness": 5.924997890294984
+    },
+    {
+      "time": 64.0,
+      "mean_height": 64.14,
+      "surface_roughness": 6.04982644379159
+    },
+    {
+      "time": 65.0,
+      "mean_height": 64.98,
+      "surface_roughness": 6.028233572117125
+    },
+    {
+      "time": 66.0,
+      "mean_height": 66.02,
+      "surface_roughness": 6.090944097592754
+    },
+    {
+      "time": 67.0,
+      "mean_height": 66.88,
+      "surface_roughness": 6.211730837697332
+    },
+    {
+      "time": 68.0,
+      "mean_height": 67.98,
+      "surface_roughness": 6.028233572117125
+    },
+    {
+      "time": 69.0,
+      "mean_height": 68.94,
+      "surface_roughness": 5.735538335675214
+    },
+    {
+      "time": 70.0,
+      "mean_height": 70.24,
+      "surface_roughness": 5.836300197899351
+    },
+    {
+      "time": 71.0,
+      "mean_height": 70.96,
+      "surface_roughness": 5.7304799100947905
+    },
+    {
+      "time": 72.0,
+      "mean_height": 71.74,
+      "surface_roughness": 5.7508608051316985
+    },
+    {
+      "time": 73.0,
+      "mean_height": 72.74,
+      "surface_roughness": 5.884929906124626
+    },
+    {
+      "time": 74.0,
+      "mean_height": 73.58,
+      "surface_roughness": 6.020265774864096
+    },
+    {
+      "time": 75.0,
+      "mean_height": 74.74,
+      "surface_roughness": 6.131264143714573
+    },
+    {
+      "time": 76.0,
+      "mean_height": 75.7,
+      "surface_roughness": 6.181423784210237
+    },
+    {
+      "time": 77.0,
+      "mean_height": 76.5,
+      "surface_roughness": 5.960704656330491
+    },
+    {
+      "time": 78.0,
+      "mean_height": 77.56,
+      "surface_roughness": 5.983844917776531
+    },
+    {
+      "time": 79.0,
+      "mean_height": 78.48,
+      "surface_roughness": 6.187859080489794
+    },
+    {
+      "time": 80.0,
+      "mean_height": 79.72,
+      "surface_roughness": 6.514721789915514
+    },
+    {
+      "time": 81.0,
+      "mean_height": 80.8,
+      "surface_roughness": 6.49307323229917
+    },
+    {
+      "time": 82.0,
+      "mean_height": 81.76,
+      "surface_roughness": 6.401749760807587
+    },
+    {
+      "time": 83.0,
+      "mean_height": 82.76,
+      "surface_roughness": 6.110842822393651
+    },
+    {
+      "time": 84.0,
+      "mean_height": 83.82,
+      "surface_roughness": 6.307741275607299
+    },
+    {
+      "time": 85.0,
+      "mean_height": 84.8,
+      "surface_roughness": 6.418722614352485
+    },
+    {
+      "time": 86.0,
+      "mean_height": 85.88,
+      "surface_roughness": 6.519631891449087
+    },
+    {
+      "time": 87.0,
+      "mean_height": 86.7,
+      "surface_roughness": 6.555150646628954
+    },
+    {
+      "time": 88.0,
+      "mean_height": 87.86,
+      "surface_roughness": 6.374982352916751
+    },
+    {
+      "time": 89.0,
+      "mean_height": 88.86,
+      "surface_roughness": 6.560518272209902
+    },
+    {
+      "time": 90.0,
+      "mean_height": 89.9,
+      "surface_roughness": 6.591661399070799
+    },
+    {
+      "time": 91.0,
+      "mean_height": 91.18,
+      "surface_roughness": 6.775514740593513
+    },
+    {
+      "time": 92.0,
+      "mean_height": 92.08,
+      "surface_roughness": 6.919075082697109
+    },
+    {
+      "time": 93.0,
+      "mean_height": 92.8,
+      "surface_roughness": 6.740919818541086
+    },
+    {
+      "time": 94.0,
+      "mean_height": 93.76,
+      "surface_roughness": 6.8075252478415385
+    },
+    {
+      "time": 95.0,
+      "mean_height": 94.52,
+      "surface_roughness": 6.5734009462378
+    },
+    {
+      "time": 96.0,
+      "mean_height": 95.68,
+      "surface_roughness": 6.818914869684178
+    },
+    {
+      "time": 97.0,
+      "mean_height": 96.94,
+      "surface_roughness": 6.604271345122035
+    },
+    {
+      "time": 98.0,
+      "mean_height": 97.74,
+      "surface_roughness": 6.7433226231584085
+    },
+    {
+      "time": 99.0,
+      "mean_height": 98.84,
+      "surface_roughness": 6.506489068614502
+    },
+    {
+      "time": 100.0,
+      "mean_height": 99.68,
+      "surface_roughness": 6.149601613112837
+    }
+  ],
+  "final_state": {
+    "time": 100.01890488229807,
+    "mean_height": 99.7,
+    "surface_roughness": 6.15223536610881,
+    "heights": [
+      103,
+      95,
+      94,
+      93,
+      95,
+      93,
+      94,
+      100,
+      106,
+      104,
+      107,
+      99,
+      114,
+      110,
+      102,
+      97,
+      96,
+      91,
+      98,
+      101,
+      101,
+      104,
+      104,
+      94,
+      111,
+      105,
+      111,
+      109,
+      102,
+      104,
+      106,
+      104,
+      97,
+      100,
+      96,
+      97,
+      95,
+      94,
+      96,
+      100,
+      106,
+      107,
+      94,
+      90,
+      94,
+      98,
+      98,
+      100,
+      87,
+      89
+    ]
+  }
+}
